@@ -66,8 +66,11 @@ const Home = React.forwardRef((props, ref) => {
       {skills.show && (
         <Skills
           heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
+          programming={skills.programming}
+          frameworks={skills.frameworks}
+          tools={skills.tools}
+          miscellaneous={skills.miscellaneous}
+          technologies={skills.technologies}
         />
       )}
       
@@ -79,10 +82,10 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
-        <Route path="/" exact element={<Home ref={titleRef} />} />
+        <Route path="" exact element={<Home ref={titleRef} />} />
       </Routes>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
