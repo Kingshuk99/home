@@ -41,7 +41,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi! My name is Kingshuk Sadhu. I currently work as a Software Engineer at Enphase Energy. I have completed my graduation from Jadavpur University, Kolkata in 2020 and postgraduation from Indian Institute of Technology, Kharagpur in 2022. Feel free to reach out to know more about me.",
-  resume: "https://drive.google.com/file/d/1yecc8xp-K3RmgjR-o83e-MxQVTdszeee/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1v9m2C64gynUB5wtCi6VuxdgKonSoPBik/view?usp=sharing",
 };
 
 // PROJECTS SECTION
