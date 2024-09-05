@@ -23,7 +23,7 @@ function Skills({ heading, programming, frameworks, tools,miscellaneous, technol
           {heading}
         </h2>
         <SkillsRow 
-            type="Programming"
+            type="Programming languages"
             skills={programming}
         />
         <SkillsRow
