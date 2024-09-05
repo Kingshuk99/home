@@ -60,7 +60,7 @@
 
 # About the project
 
-[![Site preview](/public/social-image.png)](https://kingshuk-sadhu.tech/)
+[![Site preview](/public/social-image.png)](https://kingshuk99.github.io/home/)
 
 
 ## Technology stack 🛠️
