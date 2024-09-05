@@ -7,10 +7,10 @@
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. 
     <br/>
     <strong>Site URL / Demo » </strong> 
-    <a href="https://fancy-conkies-3c943f.netlify.app/">https://fancy-conkies-3c943f.netlify.app/</a>
+    <a href="https://kingshuk-sadhu.tech/">https://kingshuk-sadhu.tech/</a>
     <br />
     <br />
-    <a href="https://fancy-conkies-3c943f.netlify.app/">About Me</a>
+    <a href="https://kingshuk-sadhu.tech/">About Me</a>
   </p>
 </p>
 
