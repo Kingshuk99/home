@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills, experiences } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -44,11 +44,12 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto">
-          {repos.show && (
+          {about.show && (
             <NavLink
-              href={process.env.PUBLIC_URL + "/#projects"}
+              className="nav-item lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              Projects
+              About
             </NavLink>
           )}
           <NavLink
@@ -59,12 +60,12 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </NavLink>
-          {about.show && (
+          {experiences.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              href={process.env.PUBLIC_URL + "/#experiences"}
             >
-              About
+              Experiences
             </NavLink>
           )}
           {skills.show && (
@@ -73,6 +74,13 @@ const Navigation = React.forwardRef((props, ref) => {
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
+            </NavLink>
+          )}
+          {repos.show && (
+            <NavLink
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              Projects
             </NavLink>
           )}
         </Nav>
