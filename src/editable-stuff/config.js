@@ -54,7 +54,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "Kingshuk99", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["Model-verifiability-in-federated-learning", "question-answer-forum-doConnect", "pizza-store", "simple-chat-app"],
+  specificRepos: ["Model-verifiability-in-federated-learning", "question-answer-forum-doConnect", "pizza-store", "chat-application"],
 };
 
 // Leadership SECTION
