@@ -40,7 +40,7 @@ const about = {
   imageLink: require("../editable-stuff/kingshuk_sadhu_photo.jpg"),
   imageSize: 375,
   message:
-    "Hi! My name is Kingshuk Sadhu. I currently work as a Software Engineer at Enphase Energy. I have completed my graduation from Jadavpur University, Kolkata in 2020 and postgraduation from Indian Institute of Technology, Kharagpur in 2022. Feel free to reach out to know more about me.",
+    "Hi! My name is Kingshuk Sadhu. I currently work as a Member of Technical Staff (Software Developer 2) at Oracle (Oracle Cloud Infrastructure). I have completed my graduation from Jadavpur University, Kolkata in 2020 and postgraduation from Indian Institute of Technology, Kharagpur in 2022. Feel free to reach out to know more about me.",
   resume: require("../editable-stuff/Kingshuk_Sadhu_Resume.pdf"),
 };
 
