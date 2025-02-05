@@ -131,7 +131,13 @@ const experiences = {
     {
       role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/enphase.png'),
-      date: 'July 2022 – Present',
+      date: 'July 2022 – January 2025',
+    },
+
+    {
+      role: 'Member of Technical Staff (Software Developer 2)',// Here Add Company Name
+      companylogo: require('../assets/img/oracle.png'),
+      date: 'January 2025 – Present',
     }
   ]
 }
